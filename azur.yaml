@@ -1,0 +1,14 @@
+# A simple configuration example
+app_info:
+  name: "SampleApp"         # String (quotes optional unless special chars used)
+  version: 1.0              # Number
+  is_active: true           # Boolean
+  
+features:                   # A sequence (list)
+  - login
+  - search
+  - cloud_sync
+
+database:                   # Nested mapping (object)
+  host: "localhost"
+  port: 5432
